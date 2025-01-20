@@ -1,3 +1,5 @@
+# Dynamic Interactive System Template
+
 Build an in-memory architecture template that includes the following components and functionalities:
 
 1. **Memory Segmentation:**
