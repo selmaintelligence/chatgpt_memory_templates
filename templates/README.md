@@ -3,12 +3,14 @@ This directory houses all of the markdown templates for ChatGPT's personalizatio
 Below are links to all of the individual templates.
 
 ## Categories
-- Python
-- Emulation / Simulation
 - Automation
+- Command optimization
+- Emulation / Simulation
+- Python & Other Code Enhancements
+- Virtual Environments
 
 
 
-
-[![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](/templates/DIST.md)
-[![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](/templates/IAF.md)
+# Virtual Environments
+[![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](DIST.md)
+[![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](ASCE.md)
