@@ -22,7 +22,7 @@ Automatically generate boilerplate code based on user input for common programmi
 (Description or link to related templates can go here.)
 
 ### 6. Virtual Environments
-1. Dynamic Interactive System Template
+1. Dynamic Interactive System Template 
 [![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](DIST.md)
 
  2.
