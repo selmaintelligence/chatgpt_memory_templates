@@ -1,26 +1,29 @@
 # Overview
-This directory houses all of the markdown templates for ChatGPT's personalization memory functions.
-Below are links to all of the individual templates.
+This directory houses all of the markdown templates for ChatGPT's personalization memory functions. Below are links to all of the individual templates.
 
 ## Categories
-- Automation
-- Boilerplates
-- Code Enhancements
-- Command Optimization
-- Emulation / Simulation
-- Virtual Environments
+- [Automation](#automation)
+- [Boilerplates](#boilerplates)
+- [Code Enhancements](#code-enhancements)
+- [Command Optimization](#command-optimization)
+- [Emulation / Simulation](#emulation--simulation)
+- [Virtual Environments](#virtual-environments)
 
-### Automation
+### [Automation](#automation)
+*Content for Automation section goes here*
 
-### Boilerplates
+### [Boilerplates](#boilerplates)
 [![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](IAFT.md)
 
-### Code Enhancements
+### [Code Enhancements](#code-enhancements)
+*Content for Code Enhancements section goes here*
 
-### Command Optimization
+### [Command Optimization](#command-optimization)
+*Content for Command Optimization section goes here*
 
-### Emulation / Simulation
+### [Emulation / Simulation](#emulation--simulation)
+*Content for Emulation / Simulation section goes here*
 
-### Virtual Environments
-[![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](DIST.md)
+### [Virtual Environments](#virtual-environments)
+[![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](DIST.md)  
 [![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](ASCE.md)
