@@ -1,6 +1,6 @@
 # Overview
 This directory houses all of the markdown templates for ChatGPT's personalization memory functions.
-Below are links to all of the individual templates.
+Below are links to all of the individual templates. Simply copy and paste the raw code into ChatGpt's text-prompt.
 
 ## Categories
 - Automation
