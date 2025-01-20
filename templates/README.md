@@ -1,26 +1,31 @@
 # Overview
-This directory houses all of the markdown templates for ChatGPT's personalization memory functions.
-Below are links to all of the individual templates. Simply copy and paste the raw code into ChatGpt's text-prompt.
+
+This directory contains markdown templates for ChatGPT's personalization memory functions. Below are links to all individual templates. Copy and paste the raw code into ChatGPT's text prompt.
 
 ## Categories
-- Automation
-- Boilerplates
-- Code Enhancements
-- Command Optimization
-- Emulation / Simulation
-- Virtual Environments
+- **Automation**
+- **Boilerplates**
+- **Code Enhancements**
+- **Command Optimization**
+- **Emulation / Simulation**
+- **Virtual Environments**
 
 ### Automation
+(Description or link to related templates can go here.)
 
 ### Boilerplates
 Automatically generate boilerplate code based on user input for common programming patterns (e.g., API skeletons, class definitions, etc.)
-[![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](IAF.md)
+
+[![Boilerplates Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](IAF.md)
 
 ### Code Enhancements
+(Description or link to related templates can go here.)
 
 ### Command Optimization
+(Description or link to related templates can go here.)
 
 ### Emulation / Simulation
+(Description or link to related templates can go here.)
 
 ### Virtual Environments
 [![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](DIST.md)
