@@ -3,7 +3,7 @@ The Dynamic Interactive System Template is a modular in-memory architecture desi
 
 ## Examples Text Prompt Usage
 
-### 1. Demonstrates basic operations and switching between different simulated environments.
+### 1. Basic operations and switching between different simulated environments.
 ```code
 # Step 1: Define a natural language description for the task
 description = "Generate a Python function that calculates the factorial of a number."
@@ -42,4 +42,43 @@ run_code(user_code)
 # Switch to Linux environment and run a command
 switch_env('linux')
 run_command('ls')
+```
+### 3. Code Debugging and Optimization
+```code
+# Step 1: Define a buggy Python function
+buggy_code = """
+def divide_numbers(a, b):
+    return a / b
+
+result = divide_numbers(10, 0)  # This will cause a ZeroDivisionError
+print(result)
+"""
+
+# Step 2: Run the buggy code and detect errors
+run_code(buggy_code)
+
+# Step 3: Automatically detect the error (ZeroDivisionError) and suggest a fix
+error_message = "ZeroDivisionError: division by zero"
+if error_message in run_code(buggy_code):
+    fix_suggestion = "Try adding a check for division by zero."
+    print("Error Detected:", error_message)
+    print("Suggested Fix:", fix_suggestion)
+
+# Step 4: Refactor the code to handle division by zero
+refactored_code = """
+def divide_numbers(a, b):
+    if b == 0:
+        return 'Cannot divide by zero'
+    return a / b
+
+result = divide_numbers(10, 0)
+print(result)  # This will print: Cannot divide by zero
+"""
+
+# Step 5: Execute the refactored code
+run_code(refactored_code)
+
+# Step 6: Log the error and fix in the virtual file system for later reference
+write_virtual_file('error_log.txt', f"Original Error: {error_message}\nSuggested Fix: {fix_suggestion}")
+read_virtual_file('error_log.txt')
 ```
