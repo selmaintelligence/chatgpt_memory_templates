@@ -12,31 +12,31 @@ This directory contains markdown templates for ChatGPT's personalization memory 
     </td>
     <td align="center">
       <a href="#boilerplates">
-        <img src="https://img.icons8.com/?size=50&id=59943&format=png&color=000000" alt="Boilerplates Icon">
+        <img src="https://img.icons8.com/?size=50&id=59896&format=png&color=000000" alt="Boilerplates Icon">
         <br>Boilerplates
       </a>
     </td>
     <td align="center">
       <a href="#code-enhancements">
-        <img src="https://img.icons8.com/?size=50&id=44004&format=png&color=000000" alt="Code Enhancements Icon">
+        <img src="https://img.icons8.com/?size=50&id=43988&format=png&color=000000" alt="Code Enhancements Icon">
         <br>Code Enhancements
       </a>
     </td>
     <td align="center">
       <a href="#command-optimization">
-        <img src="https://img.icons8.com/?size=50&id=46296&format=png&color=000000" alt="Command Optimization Icon">
+        <img src="https://img.icons8.com/?size=50&id=48250&format=png&color=000000" alt="Command Optimization Icon">
         <br>Command Optimization
       </a>
     </td>
     <td align="center">
       <a href="#simulation">
-        <img src="https://img.icons8.com/?size=50&id=46667&format=png&color=000000" alt="Simulation Icon">
+        <img src="https://img.icons8.com/?size=50&id=vbkXlsOFDNIz&format=png&color=000000" alt="Simulation Icon">
         <br>Simulation
       </a>
     </td>
     <td align="center">
       <a href="#virtual-environments">
-        <img src="https://img.icons8.com/?size=50&id=44766&format=png&color=000000" alt="Virtual Environments Icon">
+        <img src="https://img.icons8.com/?size=50&id=l3l1gzizJLqM&format=png&color=000000" alt="Virtual Environments Icon">
         <br>Virtual Environments
       </a>
     </td>
