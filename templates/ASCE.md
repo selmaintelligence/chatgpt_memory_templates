@@ -49,5 +49,5 @@ Update your memory with all of the above requests.
 
 ## Example Text Prompt Usage:
 ```code
-"Switch to the Windows environment. Create a file called log.txt in the root directory and write 'System initialized.'"
+Switch to the Windows environment. Create a file called log.txt in the root directory and write 'System initialized.'
 ```
