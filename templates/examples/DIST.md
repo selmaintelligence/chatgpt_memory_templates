@@ -3,7 +3,7 @@ The Dynamic Interactive System Template is a modular in-memory architecture desi
 
 ## Examples Text Prompt Usage
 
-1. Demonstrates basic operations and switching between different simulated environments.
+### 1. Demonstrates basic operations and switching between different simulated environments.
 ```code
 # Step 1: Define a natural language description for the task
 description = "Generate a Python function that calculates the factorial of a number."
