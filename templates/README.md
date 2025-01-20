@@ -1,206 +1,59 @@
-# Complex HTML Script for Testing
+# Project Title: Advanced Markdown Template with Navigation Menu
 
-## HTML Structure with Forms, Animations, and Alerts
+Welcome to the **Advanced Markdown Template** project! This template includes a visually appealing navigation menu designed for use in GitHub repositories. Below is an example of a horizontal navigation bar implemented using Markdown tables and image links.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complex HTML Test</title>
-    <style>
-        /* Basic CSS styling */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            flex-direction: column;
-        }
+---
 
-        h1 {
-            color: #333;
-        }
+## Navigation Menu
 
-        .animation-box {
-            width: 200px;
-            height: 200px;
-            background-color: #3498db;
-            margin: 20px;
-            animation: rotateAnimation 4s infinite;
-        }
+| [![Home](https://img.icons8.com/ios-filled/50/3498db/home.png "Home")](#home) | [![Docs](https://img.icons8.com/ios-filled/50/3498db/document.png "Documentation")](#documentation) | [![Templates](https://img.icons8.com/ios-filled/50/3498db/folder.png "Templates")](#templates) | [![Contribute](https://img.icons8.com/ios-filled/50/3498db/collaboration.png "Contribute")](#contribute) | [![Contact](https://img.icons8.com/ios-filled/50/3498db/contact-card.png "Contact Us")](#contact-us) |
+|:-----------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|
+| **Home**                                                                      | **Documentation**                                                                               | **Templates**                                                                                   | **Contribute**                                                                                      | **Contact Us**                                                                                     |
 
-        /* Animation */
-        @keyframes rotateAnimation {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
+---
 
-        /* Form Styling */
-        form {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-top: 20px;
-        }
+## Sections
 
-        input[type="text"], input[type="email"], input[type="number"] {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
+### Home
 
-        button {
-            padding: 10px 20px;
-            background-color: #2ecc71;
-            border: none;
-            color: white;
-            border-radius: 4px;
-            cursor: pointer;
-        }
+Welcome to the **Home** section! This is the starting point for exploring the project.
 
-        button:hover {
-            background-color: #27ae60;
-        }
+### Documentation
 
-        .alert-box {
-            background-color: #e74c3c;
-            color: white;
-            padding: 15px;
-            border-radius: 4px;
-            margin: 10px 0;
-            display: none;
-        }
+Access detailed guides, examples, and API references in the [Documentation](#).
 
-        .success {
-            background-color: #2ecc71;
-        }
+### Templates
 
-        .error {
-            background-color: #e74c3c;
-        }
+Explore the collection of pre-designed templates in the [Templates](#).
 
-        .info {
-            background-color: #3498db;
-        }
+### Contribute
 
-        .fade-out {
-            animation: fadeOut 3s forwards;
-        }
+Join our efforts and contribute to the project! Check out the [Contribute](#) section.
 
-        @keyframes fadeOut {
-            0% { opacity: 1; }
-            100% { opacity: 0; }
-        }
+### Contact Us
 
-        /* POST/GET Button Styling */
-        .post-get-btn {
-            background-color: #f39c12;
-            padding: 15px;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
+Need help or have suggestions? Visit the [Contact Us](#) section.
 
-        .post-get-btn:hover {
-            background-color: #e67e22;
-        }
-    </style>
-</head>
-<body>
+---
 
-<h1>Complex HTML, CSS, and JavaScript Test</h1>
+## Features of this Template
 
-<!-- Animated Box -->
-<div class="animation-box"></div>
+- **Horizontal Navigation Menu**: Easily navigate through key sections using a clean, icon-based layout.
+- **Responsive Design**: Icons and links are organized in a table for a visually appealing structure.
+- **Customizable**: Swap icons or add more sections as needed using the same table format.
+- **GitHub-Friendly**: Fully compatible with GitHub Markdown rendering.
 
-<!-- Form for Input -->
-<form id="contact-form" onsubmit="submitForm(event)">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
+---
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
+## Usage
 
-    <label for="age">Age:</label>
-    <input type="number" id="age" name="age" required>
+1. **Copy the Navigation Table**: Use the table provided above as your navigation menu.
+2. **Replace Icons**: You can change the icons using the [Icons8](https://icons8.com/) library or other resources.
+3. **Update Links**: Modify the links in the table to point to the appropriate sections of your README or other resources.
+4. **Add New Sections**: Extend the table with additional columns for more menu items.
 
-    <button type="submit">Submit Form</button>
-</form>
+---
 
-<!-- Alert Box -->
-<div id="alert-box" class="alert-box"></div>
+## License
 
-<!-- POST and GET Simulation -->
-<div>
-    <button class="post-get-btn" onclick="simulatePost()">Simulate POST</button>
-    <button class="post-get-btn" onclick="simulateGet()">Simulate GET</button>
-</div>
-
-<script>
-    // Form submission function
-    function submitForm(event) {
-        event.preventDefault(); // Prevent form from submitting
-
-        const name = document.getElementById("name").value;
-        const email = document.getElementById("email").value;
-        const age = document.getElementById("age").value;
-
-        // Basic validation
-        if (!name || !email || !age) {
-            showAlert('error', 'All fields are required!');
-            return;
-        }
-
-        showAlert('success', `Thank you for submitting, ${name}!`);
-
-        // Clear form after submission
-        document.getElementById("contact-form").reset();
-    }
-
-    // Show alert function
-    function showAlert(type, message) {
-        const alertBox = document.getElementById("alert-box");
-        alertBox.classList.remove("success", "error", "info", "fade-out");
-        alertBox.classList.add(type);
-        alertBox.textContent = message;
-        alertBox.style.display = 'block';
-
-        // Fade out alert after 3 seconds
-        setTimeout(() => {
-            alertBox.classList.add("fade-out");
-            setTimeout(() => {
-                alertBox.style.display = 'none';
-            }, 3000);
-        }, 3000);
-    }
-
-    // Simulate POST request
-    function simulatePost() {
-        alert("Simulating a POST request... Data will be sent to server.");
-        // Simulating a POST request delay
-        setTimeout(() => {
-            showAlert('info', 'POST request simulated successfully!');
-        }, 2000);
-    }
-
-    // Simulate GET request
-    function simulateGet() {
-        alert("Simulating a GET request... Retrieving data from server.");
-        // Simulating a GET request delay
-        setTimeout(() => {
-            showAlert('info', 'GET request simulated successfully!');
-        }, 2000);
-    }
-</script>
-
-</body>
-</html>
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
