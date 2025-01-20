@@ -6,7 +6,7 @@ This directory contains markdown templates for ChatGPT's personalization memory 
   <tr>
     <td align="center">
       <a href="#automation">
-        <img src="https://img.icons8.com/?size=50&id=43567&format=png&color=000000" alt="Automation Icon">
+        <img src="https://img.icons8.com/?size=50&id=ETO4T2pvoD4b&format=png&color=000000" alt="Automation Icon">
         <br>Automation
       </a>
     </td>
