@@ -1,40 +1,21 @@
-# Interactive Input with Scripts
+# Dynamic Query Links for Local Script Execution
 
-This example demonstrates how to use input boxes to interact with local scripts and external resources.
+Click the links below to trigger local scripts or pass dynamic parameters. 
 
----
+### Example: Passing User Input via Links
 
-### Input Form Example
+- [Say Hello](customscript://handle-input?name=John)
+- [Send Feedback](customscript://handle-feedback?message=Great%20Job)
+- [Run a Custom Command](customscript://run-command?cmd=ls%20-al)
 
-Enter your name and click submit to trigger a local script:
-
-<form action="customscript://handle-input" method="get">
-    <label for="userName">Name:</label>
-    <input type="text" id="userName" name="name" placeholder="Enter your name" required>
-    <button type="submit">Submit</button>
-</form>
-
-> **Note**: This form triggers a `customscript://` handler that runs a local script on your system.
+> **Note**: These links rely on a local handler script registered for `customscript://` protocol.
 
 ---
 
-### Integration Instructions
+### Instructions
 
-1. Clone the repository and configure your system to handle `customscript://` URLs (see below).
-2. Ensure the local handler script processes the input dynamically.
-3. Use this form to interact with local scripts or APIs.
-
----
-
-### Dynamic Feedback Form Example
-
-Simulate a GET request that sends data to a webhook or local script:
-
-<form action="https://example.com/api/feedback" method="get">
-    <label for="feedback">Your Feedback:</label><br>
-    <textarea id="feedback" name="message" placeholder="Write your feedback..." required></textarea><br>
-    <button type="submit">Send Feedback</button>
-</form>
+1. **Set up the local script** (see below) to handle `customscript://` links.
+2. Click the links to trigger local actions or run commands.
+3. Ensure the query parameters are properly encoded (e.g., spaces as `%20`).
 
 ---
-
