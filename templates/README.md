@@ -13,6 +13,7 @@ Below are links to all of the individual templates. Simply copy and paste the ra
 ### Automation
 
 ### Boilerplates
+Automatically generate boilerplate code based on user input for common programming patterns (e.g., API skeletons, class definitions, etc.)
 [![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](IAF.md)
 
 ### Code Enhancements
