@@ -1,6 +1,9 @@
-<p align="right"><a href="/templates/READ.md"><img src="https://img.icons8.com/?size=50&id=zY-uNLOgY3Gs&format=png&color=000000" alt="Folder Icon" /></a></p>
-# ChatGPT Memory Customization Templates
+<p align="right">
+  ChatGPT Memory Customization Templates <a href="/templates/READ.md"><img src="https://img.icons8.com/?size=50&id=zY-uNLOgY3Gs&format=png&color=000000" alt="Folder Icon" /></a>
+</p>
 
+
+[![Folder Icon](https://img.icons8.com/?size=100&id=zY-uNLOgY3Gs&format=png&color=000000)](/templates/READ.md)
 ## Overview
 This project is designed to provide **templates** in the form of markdown enhanced text prompts for customizing and expanding **ChatGPT's memory**. Through a modular approach, various **memory templates** can be used to add specific functionality, simulate environments, and allow dynamic interactions with the AI system. These templates serve as a framework to extend ChatGPT's capabilities, enabling everything from in-memory computation to virtual operating systems.
 
