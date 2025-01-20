@@ -43,7 +43,7 @@ run_code(user_code)
 switch_env('linux')
 run_command('ls')
 ```
-### 3. Code Debugging and Optimization
+### 2. Code Debugging and Optimization
 ```code
 # Step 1: Define a buggy Python function
 buggy_code = """
@@ -81,4 +81,35 @@ run_code(refactored_code)
 # Step 6: Log the error and fix in the virtual file system for later reference
 write_virtual_file('error_log.txt', f"Original Error: {error_message}\nSuggested Fix: {fix_suggestion}")
 read_virtual_file('error_log.txt')
+```
+### 3. Environment Simulation and File System Operations
+```code
+# Step 1: Switch to a simulated Linux environment
+switch_env('linux')
+
+# Step 2: Execute a file operation (create a directory)
+run_command('mkdir test_directory')
+
+# Step 3: List the contents of the current directory
+directory_contents = run_command('ls')
+print("Directory Contents:", directory_contents)
+
+# Step 4: Write a Python script to a virtual file
+script_code = """
+def greet(name):
+    return f"Hello, {name}!"
+
+message = greet('ChatGPT')
+print(message)
+"""
+write_virtual_file('greeting_script.py', script_code)
+
+# Step 5: Read and execute the Python script from the virtual file
+script_content = read_virtual_file('greeting_script.py')
+print("Script Content:", script_content)
+execute_generated_code(script_content)
+
+# Step 6: Switch to the Windows environment and execute a command
+switch_env('windows')
+run_command('dir')
 ```
