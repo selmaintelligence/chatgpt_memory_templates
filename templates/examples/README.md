@@ -1,2 +1,2 @@
-# ChatGPT pesonalization memory text-prompt template examples
+# ChatGPT Memory Pesonalization Text-Prompt Template Examples
 
