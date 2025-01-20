@@ -4,7 +4,7 @@ This directory contains markdown templates for ChatGPT's personalization memory 
 
 ## Categories
 
-<table>
+<table align="center">
   <tr>
     <td align="center">
       <a href="#automation">
