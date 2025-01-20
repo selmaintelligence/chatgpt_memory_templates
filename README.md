@@ -1,7 +1,4 @@
-<p align="right">
-  ChatGPT Memory Customization Templates <a href="/templates/READ.md"><img src="https://img.icons8.com/?size=50&id=zY-uNLOgY3Gs&format=png&color=000000" alt="Folder Icon" /></a>
-</p>
-
+# ChatGPT Memory Customization Templates
 
 [![Folder Icon](https://img.icons8.com/?size=100&id=zY-uNLOgY3Gs&format=png&color=000000)](/templates/READ.md)
 ## Overview
