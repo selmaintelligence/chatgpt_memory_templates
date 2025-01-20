@@ -46,3 +46,8 @@
 - Allow users to execute complex commands, such as environment switching, file creation, and content writing, while receiving real-time feedback and logs.
 
 Update your memory with all of the above requests.
+
+## Example Text Prompt Usage:
+```code
+"Switch to the Windows environment. Create a file called log.txt in the root directory and write 'System initialized.'"
+```
