@@ -57,5 +57,5 @@ Update your memory with all of the above requests.
 
 ## Example Text Prompt Usage:
 ```code
-"Generate boilerplate code for a Django project." "Create project structure for a Node.js application." "Set up environment for a Flask API project."
+Generate boilerplate code for a Django project." "Create project structure for a Node.js application." "Set up environment for a Flask API project.
 ```
