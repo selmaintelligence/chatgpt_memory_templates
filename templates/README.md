@@ -21,5 +21,7 @@ Automatically generate boilerplate code based on user input for common programmi
 
 ### 6. Virtual Environments
 1. #### Dynamic Interactive System Template
+[![Folder Icon](https://img.icons8.com/?size=50&id=44004&format=png&color=000000)](/templates/DIST.md)
 [![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](https://raw.githubusercontent.com/selmaintelligence/chatgpt_memory_templates/refs/heads/main/templates/DIST.md)
 [![Folder Icon](https://img.icons8.com/?size=50&id=44766&format=png&color=000000)](/templates/examples/DIST.md)
+
