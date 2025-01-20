@@ -1,4 +1,3 @@
-
 <table align="center" border="none">
   <tr>
     <td align="center">
