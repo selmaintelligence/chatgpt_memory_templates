@@ -4,23 +4,13 @@ This directory contains markdown templates for ChatGPT's personalization memory 
 
 ## Categories
 
-[![Automation Icon](https://img.icons8.com/?size=50&id=43567&format=png&color=000000)](#automation)  
-**[Automation](#automation)**  
+[![Automation Icon](https://img.icons8.com/?size=50&id=43567&format=png&color=000000)](#automation) **[Automation](#automation)**  
+[![Boilerplates Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](#boilerplates) **[Boilerplates](#boilerplates)**  
+[![Code Enhancements Icon](https://img.icons8.com/?size=50&id=44004&format=png&color=000000)](#code-enhancements) **[Code Enhancements](#code-enhancements)**  
+[![Command Optimization Icon](https://img.icons8.com/?size=50&id=46296&format=png&color=000000)](#command-optimization) **[Command Optimization](#command-optimization)**  
+[![Simulation Icon](https://img.icons8.com/?size=50&id=46667&format=png&color=000000)](#simulation) **[Simulation](#simulation)**  
+[![Virtual Environments Icon](https://img.icons8.com/?size=50&id=44766&format=png&color=000000)](#virtual-environments) **[Virtual Environments](#virtual-environments)**  
 
-[![Boilerplates Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](#boilerplates)  
-**[Boilerplates](#boilerplates)**  
-
-[![Code Enhancements Icon](https://img.icons8.com/?size=50&id=44004&format=png&color=000000)](#code-enhancements)  
-**[Code Enhancements](#code-enhancements)**  
-
-[![Command Optimization Icon](https://img.icons8.com/?size=50&id=46296&format=png&color=000000)](#command-optimization)  
-**[Command Optimization](#command-optimization)**  
-
-[![Simulation Icon](https://img.icons8.com/?size=50&id=46667&format=png&color=000000)](#simulation)  
-**[Simulation](#simulation)**  
-
-[![Virtual Environments Icon](https://img.icons8.com/?size=50&id=44766&format=png&color=000000)](#virtual-environments)  
-**[Virtual Environments](#virtual-environments)**  
 
 
 ## Categories
