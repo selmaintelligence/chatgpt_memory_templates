@@ -5,10 +5,10 @@ This directory contains markdown templates for ChatGPT's personalization memory 
 ## Categories
 - [Automation](#Automation)
 - [Boilerplates](#Boilerplates)
-- [Code Enhancements](#Code_Enhancements)
-- [Command Optimization](#Command_Optimization)
+- [Code Enhancements](#Code&Enhancements)
+- [Command Optimization](#Command&Optimization)
 - [Simulation](#Simulation)
-- [Virtual Environments](#Virtual_Environments)
+- [Virtual Environments](#Virtual&Environments)
 
 ## Automation
 (Description or link to related templates can go here.)
@@ -16,16 +16,16 @@ This directory contains markdown templates for ChatGPT's personalization memory 
 ## Boilerplates
 Automatically generate boilerplate code based on user input for common programming patterns (e.g., API skeletons, class definitions, etc.)
 
-## Code_Enhancements
+## Code Enhancements
 (Description or link to related templates can go here.)
 
-## Command_Optimization
+## Command Optimization
 (Description or link to related templates can go here.)
 
 ## Simulation
 (Description or link to related templates can go here.)
 
-## Virtual_Environments
+## Virtual Environments
 1. #### Dynamic Interactive System Template
 [![Folder Icon](https://img.icons8.com/?size=50&id=44004&format=png&color=000000)](/templates/DIST.md)
 [![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](https://raw.githubusercontent.com/selmaintelligence/chatgpt_memory_templates/refs/heads/main/templates/DIST.md)
