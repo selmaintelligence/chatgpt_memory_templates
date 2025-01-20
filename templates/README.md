@@ -13,7 +13,7 @@ Below are links to all of the individual templates.
 ### Automation
 
 ### Boilerplates
-[![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](IAFT.md)
+[![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](IAF.md)
 
 ### Code Enhancements
 
