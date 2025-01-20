@@ -43,6 +43,15 @@ run_code(user_code)
 switch_env('linux')
 run_command('ls')
 ```
+#### Explanation:
+Natural language understanding (converting descriptions to code),
+Real-time code execution,
+File system operations (creating, reading, and storing code in virtual files),
+Input processing (text manipulation),
+Custom code execution,
+Environment simulation (switching between Linux and other environments),
+User interaction (executing commands and interacting with memory).
+
 ### 2. Code Debugging and Optimization
 ```code
 # Step 1: Define a buggy Python function
