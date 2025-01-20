@@ -6,6 +6,8 @@ This directory contains markdown templates for ChatGPT's personalization memory 
 - [Automation](#Automation)
 - [Boilerplates](#Boilerplates)
 - [Code Enhancements](#Code_Enhancements)
+- [Command Optimization](#Command_Optimization)
+- [Simulation](#Simulation)
 
 ## Automation
 (Description or link to related templates can go here.)
