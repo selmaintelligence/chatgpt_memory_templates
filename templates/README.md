@@ -1,6 +1,3 @@
-# Overview
-
-This directory contains markdown templates for ChatGPT's personalization memory functions. Below are links to all raw templates and examples. Copy and paste the raw code into ChatGPT's text prompt.
 
 <table align="center" border="none">
   <tr>
@@ -42,6 +39,10 @@ This directory contains markdown templates for ChatGPT's personalization memory 
     </td>
   </tr>
 </table>
+
+# Overview
+
+This directory contains markdown templates for ChatGPT's personalization memory functions. Below are links to all raw templates and examples. Copy and paste the raw code into ChatGPT's text prompt.
 
 ## Automation
 (Description or link to related templates can go here.)
