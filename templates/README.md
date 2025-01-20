@@ -1,1 +1,1 @@
-[Launch Script](customscript://handle-input?name=John)
+[LaunchScript](customscript://handle-input?name=John)
