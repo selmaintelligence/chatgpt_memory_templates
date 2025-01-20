@@ -2,7 +2,6 @@
 
 ## HTML Structure with Forms, Animations, and Alerts
 
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
