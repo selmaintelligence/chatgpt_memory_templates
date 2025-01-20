@@ -1,5 +1,7 @@
 # Overview
-This directory houses all of the markdown templates for ChatGPT's personalization memory functions. Below are links to all of the individual templates.
+This directory contains all the markdown templates for ChatGPT's personalization memory functions. Below is a list of all individual templates categorized for easy navigation.
+
+---
 
 ## Categories
 - [Automation](#automation)
@@ -9,21 +11,39 @@ This directory houses all of the markdown templates for ChatGPT's personalizatio
 - [Emulation / Simulation](#emulation--simulation)
 - [Virtual Environments](#virtual-environments)
 
-### [Automation](#automation)
-*Content for Automation section goes here*
+---
 
-### [Boilerplates](#boilerplates)
-[![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](IAFT.md)
+### Automation
+![Automation Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)  
+[Link to Template](automation.md)
 
-### [Code Enhancements](#code-enhancements)
-*Content for Code Enhancements section goes here*
+---
 
-### [Command Optimization](#command-optimization)
-*Content for Command Optimization section goes here*
+### Boilerplates
+![Boilerplate Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)  
+[Link to Template](IAFT.md)
 
-### [Emulation / Simulation](#emulation--simulation)
-*Content for Emulation / Simulation section goes here*
+---
 
-### [Virtual Environments](#virtual-environments)
-[![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](DIST.md)  
-[![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](ASCE.md)
+### Code Enhancements
+![Code Enhancements Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)  
+[Link to Template](code-enhancements.md)
+
+---
+
+### Command Optimization
+![Command Optimization Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)  
+[Link to Template](command-optimization.md)
+
+---
+
+### Emulation / Simulation
+![Emulation Simulation Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)  
+[Link to Template](emulation-simulation.md)
+
+---
+
+### Virtual Environments
+![Virtual Environments Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)  
+[Link to Template 1](DIST.md)  
+[Link to Template 2](ASCE.md)
