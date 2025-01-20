@@ -7,13 +7,13 @@ This project is designed to provide **templates** in the form of markdown enhanc
 The core idea is that these templates, once applied to ChatGPT's internal memory, allow users to interact dynamically with the system through simple text prompts. Whether you need basic functions like memory management, file system simulation, or complex operations like AI-powered code generation, these templates allow easy and flexible configurations.
 
 ## Key Features
-- **Memory Customization**: Extend and customize ChatGPT's memory to add specialized functionality.
-- **Dynamic Execution**: Execute Python code and interact with an in-memory virtual environment.
-- **In-Memory File System**: Simulate file operations (read/write) directly in memory without needing external storage.
-- **Natural Language Processing**: Use natural language to generate Python code, perform tasks, and even switch environments.
-- **Advanced Error Handling**: Automatically detect errors during code execution and provide feedback or debugging suggestions.
+- **Memory Customization**: Extend and customize ChatGPT's memory to add specialized functionality
+- **Dynamic Execution**: Execute Python code and interact with an in-memory virtual environment
+- **In-Memory File System**: Simulate file operations (read/write) directly in memory without needing external storage
+- **Natural Language Processing**: Use natural language to generate Python code, perform tasks, and even switch environments
+- **Advanced Error Handling**: Automatically detect errors during code execution and provide feedback or debugging suggestions
 
 ## Installation
-- All ChatGPT text-prompt templates for updating ChatGPT's personalization memory functionalities are located in the /templates directory.
+- All ChatGPT text-prompt templates for updating ChatGPT's personalization memory functionalities are located in the /templates directory
 - All template examples are located in the /templates/examples directory
-- Simply copy the raw template markdown and paste it into ChatGPT's text-prompt.
+- Simply copy the raw template markdown and paste it into ChatGPT's text-prompt
