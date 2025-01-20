@@ -4,23 +4,23 @@ This directory contains markdown templates for ChatGPT's personalization memory 
 
 ## Categories
 
-### Automation
+### 1. Automation
 (Description or link to related templates can go here.)
 
-### Boilerplates
+### 2. Boilerplates
 Automatically generate boilerplate code based on user input for common programming patterns (e.g., API skeletons, class definitions, etc.)
 
 [![Boilerplates Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](IAF.md)
 
-### Code Enhancements
+### 3. Code Enhancements
 (Description or link to related templates can go here.)
 
-### Command Optimization
+### 4. Command Optimization
 (Description or link to related templates can go here.)
 
-### Emulation / Simulation
+### 5. Emulation / Simulation
 (Description or link to related templates can go here.)
 
-### Virtual Environments
-[![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](DIST.md)
+### 6. Virtual Environments
+[![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](DIST.md)  
 [![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](ASCE.md)
