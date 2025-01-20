@@ -4,12 +4,22 @@ Below are links to all of the individual templates.
 
 ## Categories
 - Automation
-- Command optimization
+- Boilerplates
+- Code Enhancements
+- Command Optimization
 - Emulation / Simulation
-- Python & Other Code Enhancements
 - Virtual Environments
 
+### Automation
 
+### Boilerplates
+[![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](IAFT.md)
+
+### Code Enhancements
+
+### Command Optimization
+
+### Emulation / Simulation
 
 ### Virtual Environments
 [![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](DIST.md)
