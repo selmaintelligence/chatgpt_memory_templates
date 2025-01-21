@@ -217,47 +217,30 @@ Purpose:  Implements all the system components, ensuring real-time handling of m
 ```
 
 ## More Examples Using Your In-Memory Settings
-### Memory Segmentation Example:
 ```code
 "Deactivate all memory segments except for code execution."
 ```
-
-### User Input Processing Example:
 ```code
 "Format this user input: ' Code with extra spaces '."
 ```
-
-### Code Execution System Example:
 ```code
 "Run the following Python code: result = 3 ** 2; print(result)."
 ```
-
-### Virtual File System Example:
 ```code
 "Write 'Data saved to memory' to log.txt and then read it back."
 ```
-
-### Error Handling Example:
 ```code
 "Detect errors in the following function: def divide(a, b): return a / b; print(divide(5, 0))."
 ```
-
-### Dynamic Memory Management Example:
 ```code
 "Dynamically allocate memory for processing this large list of numbers."
 ```
-
-### Interactive Feedback Loop Example:
 ```code
 "Give me feedback on this loop to improve its efficiency: for i in range(1000000): print(i)."
 ```
-
-### Contextual Code Generation Example:
 ```code
 "Generate Python code for the task: 'Write a function that checks if a number is a palindrome.'"
 ```
-
-### Advanced Error Detection and Auto-Fix Example:
 ```code
 "Automatically fix this error where an undefined variable is used in the code."
 ```
