@@ -109,7 +109,7 @@ System Architecture Overview:
 Update my memory by converting the ABOVE template into ChatGPT prompt enhanced functionality.
 ```
 ### Notes:
-For convenience the raw markdown is included here. As well, in a separate markdown template for easier access when dealing with ChatGPT's API dynamically. if you do not wish to have a copy and paste party,you can get the raw link from above. 
+For convenience the raw markdown is included here. As well, in a separate markdown template for easier access when dealing with ChatGPT's API dynamically. if you do not wish to have a copy and paste party, you can get the raw file link from above. 
 
 ## Template Functionality & Examples
 ### 1. Memory Segmentation:
