@@ -111,7 +111,7 @@ Update my memory by converting the ABOVE template into ChatGPT prompt enhanced f
 ### Notes:
 For convenience the raw markdown is included here. As well, in a separate markdown template for easier access when dealing with ChatGPT's API dynamically. if you do not wish to have a copy and paste party, you can get the raw file link from above. 
 
-## Template Functionality & Examples
+## Examples
 ### 1. Memory Segmentation:
 Purpose: Segments of memory can be activated or deactivated dynamically to improve resource efficiency and manage memory usage based on the task at hand.
 #### Example:
