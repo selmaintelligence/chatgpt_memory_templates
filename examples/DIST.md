@@ -5,6 +5,11 @@ The Dynamic Interactive System Template is a modular in-memory architecture desi
 [![Folder Icon](https://img.icons8.com/?size=50&id=44004&format=png&color=000000)](/templates/DIST.md)
 [![Folder Icon](https://img.icons8.com/?size=50&id=59943&format=png&color=000000)](https://raw.githubusercontent.com/selmaintelligence/chatgpt_memory_templates/refs/heads/main/templates/DIST.md)
 
+## Installation
+    1. Click either of the above links and copy the raw markdown
+    2. Paste the raw markdown into ChatGPT's text prompt and execute the template instructions.
+    3. Optionally you can copy the raw markdown manually from the raw link or access it through ChatGPT's API
+
 ## Examples Text Prompt Usage
 ### 1. Basic operations and switching between different simulated environments.
 ```code
