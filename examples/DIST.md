@@ -11,7 +11,7 @@ The Dynamic Interactive System Template is a modular in-memory architecture desi
     3. Optionally you can copy the raw markdown manually from the raw link or access it through ChatGPT's API
 
 ## Template Functionality & Examples
-    1. Memory Segmentation:
+1. Memory Segmentation:
 Purpose: Segments of memory can be activated or deactivated dynamically to improve resource efficiency and manage memory usage based on the task at hand.
 Example:
 ```code
