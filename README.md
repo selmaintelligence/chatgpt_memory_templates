@@ -14,6 +14,6 @@ The core idea is that these templates, once applied to ChatGPT's internal memory
 - **Advanced Error Handling**: Automatically detect errors during code execution and provide feedback or debugging suggestions
 
 ## Installation
-- All ChatGPT text-prompt templates for updating ChatGPT's personalization memory functionalities are located in the /templates directory
-- All template examples are located in the /templates/examples directory
+- All ChatGPT text-prompt templates are located in the /templates directory
+- All template examples are located in the /examples directory
 - Simply copy the raw template markdown and paste it into ChatGPT's text-prompt
