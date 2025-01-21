@@ -12,8 +12,8 @@ The Dynamic Interactive System Template is a modular in-memory architecture desi
 
 ## Template Functionality & Examples
 ### 1. Memory Segmentation:
-#### Purpose: Segments of memory can be activated or deactivated dynamically to improve resource efficiency and manage memory usage based on the task at hand.
-Example:
+Purpose: Segments of memory can be activated or deactivated dynamically to improve resource efficiency and manage memory usage based on the task at hand.
+####Example:
 ```code
 "Activate the memory segment for virtual file management."
 "Deactivate the memory segment for code execution."
