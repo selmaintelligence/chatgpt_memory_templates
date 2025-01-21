@@ -112,8 +112,74 @@ System Architecture Overview:
         
 Update my memory by converting the ABOVE template into ChatGPT prompt enhanced functionality.
 ```
+### Notes:
+For convenience the raw markdown is included here. As well, in a separate markdown template for easier access when dealing with ChatGPT's API dynamically. if you do not wish to have a copy and paste party, you can get the raw file link from above. 
 
+## Examples
+### 1. Template Generation Automation:
+Purpose: Automatically creates markdown templates based on user-provided natural language descriptions of functionalities or features.
+#### Example:
+```code
+ "Generate a markdown template for creating a memory-driven code execution system."
+```
+### 2. Contextual Template Design:
+Purpose: 
+#### Example:
+```code
+"Create a markdown template for a functionality that includes user input handling, error logging, and dynamic memory management."
+```
+### 3. Template Functionality Identification:
+Purpose: 
+#### Example:
+```code
+"Identify the required components for a markdown template focused on virtual file systems and data processing."
+```
+### 4. Template Export and Sharing:
+Purpose: 
+#### Example:
+```code
+"Export the generated markdown template as a .md file for project documentation."
+```
+### 5. Template Customization for User Preferences:
+Purpose: 
+#### Example:
+```code
+"Create a formal-style markdown template with detailed sections for error handling, memory segmentation, and code execution."
+```
+### 6. Automatic Template Review and Refinement:
+Purpose: 
+#### Example:
+```code
+"Review this markdown template for completeness and coherence, and suggest any missing sections or improvements:
 
+# Code Execution System  
+## Memory Segmentation  
+## Error Handling  
+## Real-Time Feedback"
+```
+### 7. Advanced Template Personalization:
+Purpose: 
+#### Example:
+```code
+"Generate a markdown template for a system with real-time interaction and reporting, based on my preference for concise formatting and minimal error handling."
+```
+### 8. Dynamic Template Usage:
+Purpose: 
+#### Example:
+```code
+"Apply the following template to update the system memory for tracking user feedback dynamically:
+
+# Feedback Tracking System  
+## User Input Processing  
+## Memory Segmentation  
+## Error Logging"
+```
+### 9. Real-Time Template Customization:
+Purpose: 
+#### Example:
+```code
+ "While generating a markdown template for an error detection system, add a section for reporting that includes detailed error analysis."
+```
 
 
 
