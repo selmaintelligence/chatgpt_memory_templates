@@ -1,4 +1,4 @@
-# Dynamic Interactive System Template Examples
+# Dynamic Interactive System Template
 The Dynamic Interactive System Template is a modular in-memory architecture designed to enable real-time code generation, execution, and user interaction. It includes dynamic memory management, AI-powered code generation, virtual file system handling, and multi-environment simulation, offering a seamless and adaptive user experience for developing and testing code interactively.
 
 [![Folder Icon](https://img.icons8.com/?size=50&id=44004&format=png&color=000000)](/templates/DIST.md)
