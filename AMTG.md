@@ -308,30 +308,81 @@ Refined Template:
 ## Reporting
 - Generate detailed output summaries.
 ```
+### 6. Template Export and Sharing
+Example Scenario: A user wants to export a markdown template for an automation system.
+Generated Template:
+```code
+# Automation System
 
+## 1. Overview
+- Description: Automates repetitive tasks for increased efficiency.
 
+## 2. Memory Segmentation
+- Task Input Memory
+- Task Output Memory
 
+## 3. Code Execution
+- Execute automation scripts for task processing.
 
+## 4. Error Handling
+- Detect script failures and log errors.
 
+## 5. Reporting
+- Generate task completion reports.
+```
+Export Options:
+Exported as automation_system.md for project documentation.
 
+### 7. Advanced Template Personalization
+Example Scenario: A user prefers detailed templates with sections for memory, execution, and error handling.
+Generated Template:
+```code
+# Advanced Automation Framework
 
+## 1. Memory Segmentation
+- Input Memory: Stores task details.
+- Processing Memory: Manages task execution data.
+- Output Memory: Records task results.
 
+## 2. Code Execution
+- Execute scripts and manage task workflows.
 
+## 3. Error Handling
+- Detect invalid inputs.
+- Log errors with suggestions for fixes.
 
+## 4. Reporting
+- Provide detailed task completion summaries.
+```
+### 8. Dynamic Template Usage
+Example Scenario: A user applies a template to a system for user feedback tracking.
+Generated Template:
+```code
+# Feedback Tracking System
 
+## 1. User Input Processing
+- Process and store user feedback.
 
+## 2. Memory Segmentation
+- Active Memory: Stores current feedback.
+- Archive Memory: Logs historical feedback.
 
+## 3. Reporting
+- Generate summaries of user feedback trends.
+```
+### 9. Real-Time Template Customization
+Example Scenario: While generating a template for error handling, a user requests the addition of a debugging workflow section.
+Generated Template:
+```code
+# Error Handling System
 
+## 1. Error Detection
+- Identify runtime errors and log them.
 
+## 2. Debugging Workflow
+- Highlight problematic code.
+- Provide step-by-step debugging instructions.
 
-
-
-
-
-
-
-
-
-
-
-
+## 3. Reporting
+- Summarize error logs and fixes.
+```
