@@ -208,6 +208,117 @@ Generated Markdown Template:
 - Generate summary statistics and visualizations.
 - Export reports in PDF and Excel formats.
 ```
+### 2. Contextual Template Design
+Example Scenario: A user requests a template for a real-time system that processes user commands and generates responses.
+Generated Markdown Template:
+```code
+# Real-Time Command Processing System
+
+## 1. Context Understanding
+- Understand and parse user commands dynamically.
+
+## 2. Memory Segmentation
+- Active Memory: Stores current command data.
+- History Memory: Logs previously processed commands.
+
+## 3. Real-Time Interaction
+- Provide instant feedback for every command.
+
+## 4. Code Execution
+- Execute command-specific logic dynamically.
+- Generate responses based on system rules.
+
+## 5. Reporting
+- Summarize system performance and command statistics.
+```
+### 3. Template Functionality Identification
+Example Scenario: A user describes a system that includes data analysis and environment simulation.
+Identified Functions:
+
+    Memory Segmentation: For storing raw data, analysis results, and simulation parameters.
+    Code Execution: To run analysis and simulation scripts.
+    Error Handling: For invalid data, simulation errors, or resource limits.
+    Reporting: For presenting analysis results and simulation outputs.
+    
+Generated Template Sections:
+```code
+# Data Analysis and Simulation System
+
+## 1. Memory Segmentation
+- Raw Data Memory
+- Analysis Results Memory
+- Simulation Parameters Memory
+
+## 2. Code Execution
+- Run data analysis scripts.
+- Simulate environmental conditions.
+
+## 3. Error Handling
+- Detect invalid inputs and log errors.
+
+## 4. Reporting
+- Generate detailed analysis and simulation reports.
+```
+### 4. Template Customization for User Preferences
+Example Scenario: A user wants a concise template for a debugging tool with a focus on error handling.
+Generated Markdown Template:
+```code
+# Debugging Tool
+
+## 1. Error Detection
+- Identify runtime errors.
+- Log error messages with timestamps.
+
+## 2. Real-Time Debugging
+- Highlight problematic code lines.
+- Provide automated fix suggestions.
+
+## 3. Reporting
+- Summarize debugging sessions and fixes.
+```
+### 5. Automatic Template Review and Refinement
+Example Scenario: A user provides the following template and requests a review:
+```code
+# System Template
+
+## Memory Segmentation
+- User Input Memory
+- Output Memory
+```
+System Suggestions:
+
+    Add a Code Execution section to describe how the system runs code.
+    Include an Error Handling section for robustness.
+    Add a Reporting section for output summaries.
+    
+Refined Template:
+```code
+# System Template
+
+## Memory Segmentation
+- User Input Memory
+- Output Memory
+
+## Code Execution
+- Execute scripts and return results.
+
+## Error Handling
+- Detect and log runtime errors.
+
+## Reporting
+- Generate detailed output summaries.
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 
