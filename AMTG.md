@@ -181,8 +181,33 @@ Purpose:
  "While generating a markdown template for an error detection system, add a section for reporting that includes detailed error analysis."
 ```
 
+## More Examples Using Your In-Memory Settings
+### 1. Template Generation Automation
 
+Example Scenario: A user wants to create a markdown template for a data processing system.
+Generated Markdown Template:
+```code
+# Data Processing System
 
+## 1. Overview
+- Description: A system to process, analyze, and visualize data efficiently.
+
+## 2. Memory Segmentation
+- Input Memory: Stores raw data from users.
+- Processing Memory: Handles data transformations and computations.
+- Output Memory: Stores processed results for reporting.
+
+## 3. Code Execution
+- Execute scripts for data cleaning, transformation, and visualization.
+
+## 4. Error Handling
+- Detect invalid data formats.
+- Log errors with timestamps and descriptions.
+
+## 5. Reporting
+- Generate summary statistics and visualizations.
+- Export reports in PDF and Excel formats.
+```
 
 
 
