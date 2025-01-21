@@ -8,7 +8,6 @@ The Dynamic Interactive System template is an advanced, modular architecture des
 ## Installation
     1. Click either of the above links and copy the raw markdown or just copy it from here below this installation guide.
     2. Paste the raw markdown into ChatGPT's text prompt and execute the template instructions.
-Notes: 
 ```code
 Update my memory by converting the BELOW template into ChatGPT prompt enhanced functionality.
 
@@ -109,6 +108,8 @@ System Architecture Overview:
 
 Update my memory by converting the ABOVE template into ChatGPT prompt enhanced functionality.
 ```
+### Notes
+For convenience the raw markdown is included here. As well, in a separate markdown template for easier access when dealing with ChatGPT's API dynamically. if you do not wish to have a copy and paste party,you can get the raw link from above. 
 
 ## Template Functionality & Examples
 ### 1. Memory Segmentation:
