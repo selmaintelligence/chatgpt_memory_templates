@@ -1,3 +1,5 @@
+Update my memory by converting the BELOW template into ChatGPT prompt enhanced functionality.
+
 # Dynamic Interactive System Template
 
 Build an in-memory architecture template that includes the following components and functionalities:
@@ -67,4 +69,4 @@ Build an in-memory architecture template that includes the following components 
 
 - Optimize the architecture to minimize memory usage, improve execution time, and adapt dynamically to user requirements.
 
-Update your memory with all of the above requests.
+Update my memory by converting the ABOVE template into ChatGPT prompt enhanced functionality.
