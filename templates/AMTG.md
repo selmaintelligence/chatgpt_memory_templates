@@ -88,7 +88,7 @@ Develop an in-memory architecture to automate the creation, refinement, and cust
     Interactive Changes:
         Allow users to specify changes (e.g., adding sections or functionalities) dynamically.
 
-Update System with the Automated Template Generation Framework
+System Architecture Overview:
 
     Implementation Goals:
         Automate markdown generation, refinement, and customization based on user input.
