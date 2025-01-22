@@ -3,50 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChatGPT URL Data Extractor</title>
+    <title>ChatGPT URL Source Code Reader</title>
 </head>
 <body>
-    <h1>ChatGPT URL Data Extractor</h1>
+    <h1>ChatGPT URL Source Code Reader</h1>
     <p>Extracting data from: <span id="url"></span></p>
-    <div id="output">Loading...</div>
+    <pre id="output">Loading...</pre>
 
     <script>
-        // Function to extract data from a ChatGPT conversation URL
-        async function fetchChatGPTData(url) {
-            document.getElementById('url').textContent = url;
+        // Define the URL
+        const chatGPTUrl = "https://chatgpt.com/share/67904287-3298-8013-b2ae-87776fbfb851";
+        document.getElementById('url').textContent = chatGPTUrl;
 
+        // Function to fetch and display the source code
+        async function fetchSourceCode(url) {
             try {
-                // Fetch the content from the URL
                 const response = await fetch(url);
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
                 }
 
-                // Parse response (assumes JSON or HTML content)
-                const contentType = response.headers.get("content-type");
-                let data;
-                if (contentType && contentType.includes("application/json")) {
-                    data = await response.json(); // If JSON response
-                } else {
-                    const text = await response.text(); // If HTML response
-                    const parser = new DOMParser();
-                    const doc = parser.parseFromString(text, "text/html");
-                    data = doc.body.innerText || "No meaningful text found";
-                }
+                // Read the response as text (HTML source code)
+                const sourceCode = await response.text();
 
-                // Display the extracted data
-                document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+                // Display the source code
+                document.getElementById('output').textContent = sourceCode;
             } catch (error) {
-                console.error("Error fetching data:", error);
-                document.getElementById('output').textContent = `Error fetching data: ${error.message}`;
+                console.error("Error fetching source code:", error);
+                document.getElementById('output').textContent = `Error fetching source code: ${error.message}`;
             }
         }
 
-        // Define the URL
-        const chatGPTUrl = "https://chatgpt.com/share/67904287-3298-8013-b2ae-87776fbfb851";
-
-        // Fetch and extract data
-        fetchChatGPTData(chatGPTUrl);
+        // Fetch the source code
+        fetchSourceCode(chatGPTUrl);
     </script>
 </body>
 </html>
