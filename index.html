@@ -3,35 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Extract Data from URL</title>
+    <title>ChatGPT URL Data Extractor</title>
 </head>
 <body>
-    <h1>URL Data Extractor</h1>
-    <p id="output">Extracted data will appear here.</p>
+    <h1>ChatGPT URL Data Extractor</h1>
+    <p>Extracting data from: <span id="url"></span></p>
+    <div id="output">Loading...</div>
 
     <script>
-        // URL to extract data from
-        const url = "https://chatgpt.com/share/67904287-3298-8013-b2ae-87776fbfb851";
+        // Function to extract data from a ChatGPT conversation URL
+        async function fetchChatGPTData(url) {
+            document.getElementById('url').textContent = url;
 
-        // Function to extract meaningful data from the URL
-        function extractData(url) {
             try {
-                const urlObj = new URL(url);
-                const pathParts = urlObj.pathname.split('/').filter(Boolean);
+                // Fetch the content from the URL
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
 
-                // Assuming meaningful data is the last part of the path
-                const meaningfulData = pathParts.pop();
+                // Parse response (assumes JSON or HTML content)
+                const contentType = response.headers.get("content-type");
+                let data;
+                if (contentType && contentType.includes("application/json")) {
+                    data = await response.json(); // If JSON response
+                } else {
+                    const text = await response.text(); // If HTML response
+                    const parser = new DOMParser();
+                    const doc = parser.parseFromString(text, "text/html");
+                    data = doc.body.innerText || "No meaningful text found";
+                }
 
-                return meaningfulData;
+                // Display the extracted data
+                document.getElementById('output').textContent = JSON.stringify(data, null, 2);
             } catch (error) {
-                console.error("Invalid URL:", error);
-                return "Error parsing URL.";
+                console.error("Error fetching data:", error);
+                document.getElementById('output').textContent = `Error fetching data: ${error.message}`;
             }
         }
 
-        // Extract and display the data
-        const extractedData = extractData(url);
-        document.getElementById('output').textContent = `Extracted Data: ${extractedData}`;
+        // Define the URL
+        const chatGPTUrl = "https://chatgpt.com/share/67904287-3298-8013-b2ae-87776fbfb851";
+
+        // Fetch and extract data
+        fetchChatGPTData(chatGPTUrl);
     </script>
 </body>
 </html>
