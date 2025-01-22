@@ -15,5 +15,4 @@ The core idea is that these templates, once applied to ChatGPT's internal memory
 
 ## Installation
 - All raw ChatGPT text-prompt templates are located in the /templates directory
-- All examples and usage are in the /examples directory
 - Simply copy the raw template markdown and paste it into ChatGPT's text-prompt
