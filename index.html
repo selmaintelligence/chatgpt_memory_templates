@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Directory Files</title>
+  <title>Read Directory Files</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -38,62 +38,50 @@
       padding: 10px;
       border-radius: 4px;
     }
+
+    button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Files in Directory</h1>
+    <h1>Select a Directory</h1>
+    <button id="pick-folder">Choose Folder</button>
     <ul id="file-list"></ul>
   </div>
   <script>
-    // Embedded Node.js server
-    (async () => {
-      const { execSync } = await import('child_process');
-      const { createServer } = await import('http');
-      const { readdirSync } = await import('fs');
-      const { join } = await import('path');
+    document.getElementById('pick-folder').addEventListener('click', async () => {
+      const fileList = document.getElementById('file-list');
+      fileList.innerHTML = '';
 
-      const templatesDir = join(__dirname || '.', 'static/templates');
+      try {
+        // Show the directory picker
+        const directoryHandle = await window.showDirectoryPicker();
 
-      // Serve HTML and file list API
-      const server = createServer((req, res) => {
-        if (req.url === '/') {
-          res.writeHead(200, { 'Content-Type': 'text/html' });
-          res.end(document.documentElement.outerHTML);
-        } else if (req.url === '/files') {
-          try {
-            const files = readdirSync(templatesDir);
-            res.writeHead(200, { 'Content-Type': 'application/json' });
-            res.end(JSON.stringify(files));
-          } catch {
-            res.writeHead(500);
-            res.end('Error reading directory');
+        // Iterate over directory entries
+        for await (const [name, handle] of directoryHandle) {
+          if (handle.kind === 'file') {
+            const li = document.createElement('li');
+            li.textContent = name;
+            fileList.appendChild(li);
           }
-        } else {
-          res.writeHead(404);
-          res.end('Not Found');
         }
-      });
-
-      server.listen(3000, () => {
-        console.log('Server running at http://localhost:3000');
-      });
-
-      // Fetch and display file list
-      document.addEventListener('DOMContentLoaded', () => {
-        fetch('/files')
-          .then(response => response.json())
-          .then(files => {
-            const fileList = document.getElementById('file-list');
-            files.forEach(file => {
-              const li = document.createElement('li');
-              li.textContent = file;
-              fileList.appendChild(li);
-            });
-          })
-          .catch(err => console.error('Error fetching files:', err));
-      });
-    })();
+      } catch (error) {
+        console.error('Error accessing directory:', error);
+      }
+    });
   </script>
 </body>
 </html>
