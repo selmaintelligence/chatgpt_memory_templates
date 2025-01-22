@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Directory path where markdown files are stored
-    const markdownDir = "../templates/";
+    const markdownDir = "static/templates/";
 
     // Function to fetch markdown files from the directory
     fetch(markdownDir)
